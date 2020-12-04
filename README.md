@@ -6,7 +6,13 @@
 
 Selenium project file: https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/findYoutubeVideo.side
 
-![alt text](https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/funnyCats.jpeg)
+<details>
+  <summary>View screenshot</summary>
+  
+  ![alt text](https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/funnyCats.jpeg)
+</details>
+
+
 
 **• Use selenium IDE to test tha tyou can fill out this form:**
 
