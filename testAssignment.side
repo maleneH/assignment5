@@ -1,0 +1,158 @@
+{
+  "id": "84bd21a8-41da-4b20-a267-a6f7a3c69b0d",
+  "version": "2.0",
+  "name": "testAssignment",
+  "url": "https://youtube.com",
+  "tests": [{
+    "id": "cdac4b61-a67f-4dc1-8881-721ad606d96b",
+    "name": "findACat",
+    "commands": [{
+      "id": "d605bab3-7941-4364-ae71-dd93524b4111",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e104feb-f660-4449-bd35-cf3fc8309b7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "805x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f4ca2fc-4dfc-4029-9a61-a6f0c2bf7e55",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbb1eff4-b322-4f3e-a696-49775889ec62",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cats"
+    }, {
+      "id": "2bf69de6-6fbf-43e4-be50-9d87812e10e7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "851d4ea1-3ee6-4af0-8aa0-c2bce75a747d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='video-title']/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'You will LAUGH SO HARD that YOU WILL FAINT - FUNNY CAT compilation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77c5377-ca4b-4849-8b0e-a673ddcf1d5b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='video-title']/yt-formatted-string", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'You will LAUGH SO HARD that YOU WILL FAINT - FUNNY CAT compilation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7a55473-6567-4bc3-9c74-9fb2d8e4bcb4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Cute and Funny Cat Videos to Keep You Smiling! 🐱')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "222a5057-7f5a-4f3a-824e-9b691c3168f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Cute and Funny Cat Videos to Keep You Smiling! 🐱')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9073bb46-f5e8-45fb-80ff-ee97341cca8a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-item-section-renderer:nth-child(2) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(2) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Cute and Funny Cat Videos to Keep You Smiling! 🐱')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c2a9f9a-77fa-4961-b25c-55b30d684b05",
+      "comment": "",
+      "command": "click",
+      "target": "id=ad-text:7",
+      "targets": [
+        ["id=ad-text:7", "id"],
+        ["css=#ad-text\\3A 7", "css:finder"],
+        ["xpath=//div[@id='ad-text:7']", "xpath:attributes"],
+        ["xpath=//div[@id='skip-button:6']/span/button/div", "xpath:idRelative"],
+        ["xpath=//span/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d57dcf-1687-43e5-816b-3fbddc4b0f0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[31]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "709a224d-4765-42d3-afcd-ab07f957424c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cdac4b61-a67f-4dc1-8881-721ad606d96b"]
+  }],
+  "urls": ["https://youtube.com/"],
+  "plugins": []
+}

@@ -1,0 +1,266 @@
+{
+  "id": "dd8bc3b0-3c15-45c0-b534-aaf85ee8e685",
+  "version": "2.0",
+  "name": "findYoutubeVideo",
+  "url": "https://youtube.com",
+  "tests": [{
+    "id": "d42896c6-0092-41a8-823e-e267ef879532",
+    "name": "findYoutubeVideo",
+    "commands": [{
+      "id": "a5a7fddb-1346-46a0-90a0-fa978a3b7a6f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.youtube.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c5b408c-63b3-4dbe-b292-8364a97585bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "805x969",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fc07cec-1889-410d-bfec-a4f9a01c2684",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55a29d2f-ba4c-4589-bc76-141c1e4c6206",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "funny cats"
+    }, {
+      "id": "06560e38-39d9-4c11-9a26-d06747b0f685",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=#sb_ifc50 > #search", "css:finder"],
+        ["xpath=//input[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='sb_ifc50']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5166faef-c144-4b8a-b2f2-619782cc8b3b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-promoted-video-renderer > #thumbnail",
+      "targets": [
+        ["css=.ytd-promoted-video-renderer > #thumbnail", "css:finder"],
+        ["xpath=(//a[@id='thumbnail'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='contents']/ytd-promoted-video-renderer/ytd-thumbnail/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdHQfpwPKX4uAOrnE7_UPl6ucgAjjp6S5YKzv1cihDcCNtwEQASAAYNGZuYLQB4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxqQIM_ziNGsTHPagDBKoEggJP0A5qZI0ea9_VwuKNKg7XITV17YSTGnG0n9Zx3z0fJ26gCD7Fhssz_NE6SrRPFbLaefC5-lPsFbNJuZaCh6n3FgxrT5GdIFsQAebBPEUhBO8D3qzxGkoDFn9H35P-fRnfwc9QHg_HAC1WX70ms0yao_Gasw4Kp89oBgkAwCvjTHgORvuh-2MO9PbZu7bjkuLX6_7LHu40HixGIqva2z0ZPekibnk1uma0t7ajrZYCYuoh17snJQ36aV0qbs3umJzHHhDbnDysR5A3TTGDb7UZh5jmExGwQgVXQXDK-JRPcGBVHUDeq-RdjZUmOkScxK89yK2FubQ01gVAjFV_H4MHtAWIBd7WttMrkgUNCBIwiubUwY3PvJHVAZIFCAgTeLX1uJcBkgUECAMQBKAGVYAHr-KalwGQBwSoB6jSG6gHtgeoB-DPG6gH6dQbqAe21xuoB4zNG6gHsdwbqAfw2RuoB9XOG6gHgcYbqAeYzhuoB6vFG6gH3s4bqAe_1RuSCAsxU0x5ZU5nMU13b9IIBwiAwYAQEAGxCRPEZfKVoNC4yAkXmAsBugsbCAMQAxgGIAYoATAFQAFIAFgLYABoAHABiAEA0AsTuAwBuBP___________8BsBQDwBWBgIBA2BUBoBcB&num=1&cid=CAASFeRo6JeJc_fyfiV4rKjsaWLxWuIGkw&sig=AOD64_2irjm3njeW9HIrZDWkSMjEmt9_Gg&adurl=http://www.youtube.com/watch%3Fv%3D1SLyeNg1Mwo&ctype=21&video_id=1SLyeNg1Mwo&client=ca-pub-6219811747049371')]", "xpath:href"],
+        ["xpath=//ytd-promoted-video-renderer/ytd-thumbnail/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "811c2d55-00e8-4ff6-bc63-3ec1afef5db1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-promoted-video-renderer > #thumbnail",
+      "targets": [
+        ["css=.ytd-promoted-video-renderer > #thumbnail", "css:finder"],
+        ["xpath=(//a[@id='thumbnail'])[36]", "xpath:attributes"],
+        ["xpath=//div[@id='contents']/ytd-promoted-video-renderer/ytd-thumbnail/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdHQfpwPKX4uAOrnE7_UPl6ucgAjjp6S5YKzv1cihDcCNtwEQASAAYNGZuYLQB4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxqQIM_ziNGsTHPagDBKoEggJP0A5qZI0ea9_VwuKNKg7XITV17YSTGnG0n9Zx3z0fJ26gCD7Fhssz_NE6SrRPFbLaefC5-lPsFbNJuZaCh6n3FgxrT5GdIFsQAebBPEUhBO8D3qzxGkoDFn9H35P-fRnfwc9QHg_HAC1WX70ms0yao_Gasw4Kp89oBgkAwCvjTHgORvuh-2MO9PbZu7bjkuLX6_7LHu40HixGIqva2z0ZPekibnk1uma0t7ajrZYCYuoh17snJQ36aV0qbs3umJzHHhDbnDysR5A3TTGDb7UZh5jmExGwQgVXQXDK-JRPcGBVHUDeq-RdjZUmOkScxK89yK2FubQ01gVAjFV_H4MHtAWIBd7WttMrkgUNCBIwiubUwY3PvJHVAZIFCAgTeLX1uJcBkgUECAMQBKAGVYAHr-KalwGQBwSoB6jSG6gHtgeoB-DPG6gH6dQbqAe21xuoB4zNG6gHsdwbqAfw2RuoB9XOG6gHgcYbqAeYzhuoB6vFG6gH3s4bqAe_1RuSCAsxU0x5ZU5nMU13b9IIBwiAwYAQEAGxCRPEZfKVoNC4yAkXmAsBugsbCAMQAxgGIAYoATAFQAFIAFgLYABoAHABiAEA0AsTuAwBuBP___________8BsBQDwBWBgIBA2BUBoBcB&num=1&cid=CAASFeRo6JeJc_fyfiV4rKjsaWLxWuIGkw&sig=AOD64_2irjm3njeW9HIrZDWkSMjEmt9_Gg&adurl=http://www.youtube.com/watch%3Fv%3D1SLyeNg1Mwo&ctype=21&video_id=1SLyeNg1Mwo&client=ca-pub-6219811747049371')]", "xpath:href"],
+        ["xpath=//ytd-promoted-video-renderer/ytd-thumbnail/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b98aba-9394-45c1-bcf7-63e396915bef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-promoted-video-renderer > #thumbnail #img",
+      "targets": [
+        ["css=.ytd-promoted-video-renderer > #thumbnail #img", "css:finder"],
+        ["xpath=(//img[@id='img'])[72]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[36]", "xpath:idRelative"],
+        ["xpath=//ytd-promoted-video-renderer/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53614cfa-7082-4ebe-b27a-3904b3e83cfe",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-promoted-video-renderer > #thumbnail #img",
+      "targets": [
+        ["css=.ytd-promoted-video-renderer > #thumbnail #img", "css:finder"],
+        ["xpath=(//img[@id='img'])[72]", "xpath:attributes"],
+        ["xpath=(//a[@id='thumbnail']/yt-img-shadow/img)[36]", "xpath:idRelative"],
+        ["xpath=//ytd-promoted-video-renderer/ytd-thumbnail/a/yt-img-shadow/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc00b61-58b2-4581-b2b4-6e68822605ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#text-container > #endpoint",
+      "targets": [
+        ["css=#text-container > #endpoint", "css:finder"],
+        ["xpath=(//a[@id='endpoint'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='text-container']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdHQfpwPKX4uAOrnE7_UPl6ucgAjjp6S5YKzv1cihDcCNtwEQASAAYNGZuYLQB4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxqQIM_ziNGsTHPagDBKoEggJP0A5qZI0ea9_VwuKNKg7XITV17YSTGnG0n9Zx3z0fJ26gCD7Fhssz_NE6SrRPFbLaefC5-lPsFbNJuZaCh6n3FgxrT5GdIFsQAebBPEUhBO8D3qzxGkoDFn9H35P-fRnfwc9QHg_HAC1WX70ms0yao_Gasw4Kp89oBgkAwCvjTHgORvuh-2MO9PbZu7bjkuLX6_7LHu40HixGIqva2z0ZPekibnk1uma0t7ajrZYCYuoh17snJQ36aV0qbs3umJzHHhDbnDysR5A3TTGDb7UZh5jmExGwQgVXQXDK-JRPcGBVHUDeq-RdjZUmOkScxK89yK2FubQ01gVAjFV_H4MHtAWIBd7WttMrkgUNCBIwiubUwY3PvJHVAZIFCAgTeLX1uJcBkgUECAMQBKAGVYAHr-KalwGQBwSoB6jSG6gHtgeoB-DPG6gH6dQbqAe21xuoB4zNG6gHsdwbqAfw2RuoB9XOG6gHgcYbqAeYzhuoB6vFG6gH3s4bqAe_1RuSCAsxU0x5ZU5nMU13b9IIBwiAwYAQEAGxCRPEZfKVoNC4yAkXmAsBugsbCAMQAxgGIAYoATAFQAFIAFgLYABoAHABiAEA0AsTuAwBuBP___________8BsBQDwBWBgIBA2BUBoBcB&num=1&cid=CAASFeRo6JeJc_fyfiV4rKjsaWLxWuIGkw&sig=AOD64_2irjm3njeW9HIrZDWkSMjEmt9_Gg&adurl=http://www.youtube.com/watch%3Fv%3D1SLyeNg1Mwo&ctype=21&video_id=1SLyeNg1Mwo&client=ca-pub-6219811747049371')])[2]", "xpath:href"],
+        ["xpath=//ytd-promoted-video-renderer/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72c1a085-2bf1-4e11-b649-0605580c557f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#text-container > #endpoint",
+      "targets": [
+        ["css=#text-container > #endpoint", "css:finder"],
+        ["xpath=(//a[@id='endpoint'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='text-container']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdHQfpwPKX4uAOrnE7_UPl6ucgAjjp6S5YKzv1cihDcCNtwEQASAAYNGZuYLQB4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxqQIM_ziNGsTHPagDBKoEggJP0A5qZI0ea9_VwuKNKg7XITV17YSTGnG0n9Zx3z0fJ26gCD7Fhssz_NE6SrRPFbLaefC5-lPsFbNJuZaCh6n3FgxrT5GdIFsQAebBPEUhBO8D3qzxGkoDFn9H35P-fRnfwc9QHg_HAC1WX70ms0yao_Gasw4Kp89oBgkAwCvjTHgORvuh-2MO9PbZu7bjkuLX6_7LHu40HixGIqva2z0ZPekibnk1uma0t7ajrZYCYuoh17snJQ36aV0qbs3umJzHHhDbnDysR5A3TTGDb7UZh5jmExGwQgVXQXDK-JRPcGBVHUDeq-RdjZUmOkScxK89yK2FubQ01gVAjFV_H4MHtAWIBd7WttMrkgUNCBIwiubUwY3PvJHVAZIFCAgTeLX1uJcBkgUECAMQBKAGVYAHr-KalwGQBwSoB6jSG6gHtgeoB-DPG6gH6dQbqAe21xuoB4zNG6gHsdwbqAfw2RuoB9XOG6gHgcYbqAeYzhuoB6vFG6gH3s4bqAe_1RuSCAsxU0x5ZU5nMU13b9IIBwiAwYAQEAGxCRPEZfKVoNC4yAkXmAsBugsbCAMQAxgGIAYoATAFQAFIAFgLYABoAHABiAEA0AsTuAwBuBP___________8BsBQDwBWBgIBA2BUBoBcB&num=1&cid=CAASFeRo6JeJc_fyfiV4rKjsaWLxWuIGkw&sig=AOD64_2irjm3njeW9HIrZDWkSMjEmt9_Gg&adurl=http://www.youtube.com/watch%3Fv%3D1SLyeNg1Mwo&ctype=21&video_id=1SLyeNg1Mwo&client=ca-pub-6219811747049371')])[2]", "xpath:href"],
+        ["xpath=//ytd-promoted-video-renderer/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fdd832c-2beb-4a14-8494-670b5808cff1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(3) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.style-scope:nth-child(3) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'CATS will make you LAUGH YOUR HEAD OFF - Funny CAT compilation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6a8447-71c8-464a-aab8-cce7ff76f695",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(3) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.style-scope:nth-child(3) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[2]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'CATS will make you LAUGH YOUR HEAD OFF - Funny CAT compilation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf74853-dec4-4da0-8054-1d9404ea4b42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tiger FunnyWorks",
+      "targets": [
+        ["linkText=Tiger FunnyWorks", "linkText"],
+        ["css=.style-scope:nth-child(3) > #dismissable #channel-info .yt-simple-endpoint", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tiger FunnyWorks')])[2]", "xpath:link"],
+        ["xpath=(//yt-formatted-string[@id='text']/a)[39]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/user/wloltigerlolw3')])[3]", "xpath:href"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div[2]/ytd-channel-name/div/div/yt-formatted-string/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c38eebc2-fc8e-4971-98a6-5ce9a7636d73",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Tiger FunnyWorks",
+      "targets": [
+        ["linkText=Tiger FunnyWorks", "linkText"],
+        ["css=.style-scope:nth-child(3) > #dismissable #channel-info .yt-simple-endpoint", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tiger FunnyWorks')])[2]", "xpath:link"],
+        ["xpath=(//yt-formatted-string[@id='text']/a)[39]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/user/wloltigerlolw3')])[3]", "xpath:href"],
+        ["xpath=//ytd-video-renderer[2]/div/div/div[2]/ytd-channel-name/div/div/yt-formatted-string/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10d1caa2-3b0d-445a-9ce3-9ee90589fb9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.style-scope:nth-child(4) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[3]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Funny CATS - HOLD YOUR LAUGH IF YOU CAN (CHALLENGE)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1035666f-6ecf-4d59-b1c8-6690a725e527",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5577e0cc-1637-4b16-a761-7c30bf1ef5ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.style-scope:nth-child(4) > #dismissable #video-title > .style-scope:nth-child(2)",
+      "targets": [
+        ["css=.style-scope:nth-child(4) > #dismissable #video-title > .style-scope:nth-child(2)", "css:finder"],
+        ["xpath=(//a[@id='video-title']/yt-formatted-string)[3]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer[3]/div/div/div/div/h3/a/yt-formatted-string", "xpath:position"],
+        ["xpath=//yt-formatted-string[contains(.,'Funny CATS - HOLD YOUR LAUGH IF YOU CAN (CHALLENGE)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f4b33c4-173c-4031-9586-8928edf6c0c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[25]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb21f02-2f83-4461-a400-9c7a29abc029",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[25]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73083d4d-f970-410b-9ad9-50e46077c28d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[25]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7fdc7969-8409-4b0e-8f60-f27601931f38",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d42896c6-0092-41a8-823e-e267ef879532"]
+  }],
+  "urls": [],
+  "plugins": []
+}
