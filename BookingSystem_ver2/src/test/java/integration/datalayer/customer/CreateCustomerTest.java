@@ -32,7 +32,7 @@ class CreateCustomerTest {
                 .defaultSchema(db)
                 .createSchemas(true)
                 .schemas(db)
-                .target("2")
+                .target("4")
                 .dataSource(url, "root", "testuser123"));
 
         flyway.migrate();
