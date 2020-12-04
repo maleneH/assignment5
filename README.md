@@ -45,8 +45,8 @@ the URL of the first 10 videos to a log file.
 ## Cucumber
 
 
-#### • Complete the Cucumber tutorial: https://cucumber.io/docs/guides/
-10-minute-tutorial/
+#### • Complete the Cucumber tutorial: https://cucumber.io/docs/guides/10-minute-tutorial/
+*Our Cucumber tutorial project is in the hellocucumber folder: https://github.com/maleneH/assignment5/tree/main/hellocucumber*
 
 #### • Extend your booking system with a couple of new features by using
 test-first with Cucumber. Inspiration:
