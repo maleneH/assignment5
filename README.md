@@ -17,9 +17,11 @@
 #### • Use selenium IDE to test tha tyou can fill out this form:
 
 
-   **– https://sqengineer.com/practice-sites/basic-web-elements/**
+   
+   * **https://<i></i>sqengineer.com/practice-sites/basic-web-elements/**
      
-   **– Make sure to capture the “Read this text and print the output”**
+   
+   * **Make sure to capture the “Read this text and print the output”**
 
 
 *Selenium project file: https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/testAssignment.side*
@@ -34,7 +36,7 @@
 
 ## WebDriver
 
-#### • Use WebDriver to solve https://sqengineer.com/practice-sites/
+#### • Use WebDriver to solve https://<i></i>sqengineer.com/practice-sites/
 practice-tables-selenium/
 
 #### • Use WebDriver to find youtube videos about cats uploaded today. Print
@@ -45,8 +47,8 @@ the URL of the first 10 videos to a log file.
 ## Cucumber
 
 
-#### • Complete the Cucumber tutorial: https://cucumber.io/docs/guides/
-10-minute-tutorial/
+#### • Complete the Cucumber tutorial: https://<i></i>cucumber.io/docs/guides/10-minute-tutorial/
+*Our Cucumber tutorial project is in the hellocucumber folder: https://github.com/maleneH/assignment5/tree/main/hellocucumber*
 
 #### • Extend your booking system with a couple of new features by using
 test-first with Cucumber. Inspiration:
