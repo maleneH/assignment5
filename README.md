@@ -4,7 +4,7 @@
 
 #### • Use Selenium IDE to test that you can find a youtube video
 
-*Selenium project file: https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/findYoutubeVideo.side*
+*Selenium project file: 'https://github.com/maleneH/Test/blob/master/Assignment5_FrontendTest/findYoutubeVideo.side'*
 
 <details>
   <summary>View screenshot</summary>
