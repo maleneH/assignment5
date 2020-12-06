@@ -1,5 +1,12 @@
 # Assignment 5
 
+## Group Members
+
+  - Sebastian Kock Harvej
+  - Bejanmin Østerø Højgaard
+  - Mads Meinert Andersen
+  - Malene Hansen
+
 ## Selenium IDE
 
 #### • Use Selenium IDE to test that you can find a youtube video
