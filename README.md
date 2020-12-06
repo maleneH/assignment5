@@ -38,8 +38,9 @@
 
 #### • Use WebDriver to solve https://<i></i>sqengineer.com/practice-sites/practice-tables-selenium/
 
-#### • Use WebDriver to find youtube videos about cats uploaded today. Print
-the URL of the first 10 videos to a log file.
+#### • Use WebDriver to find youtube videos about cats uploaded today. Print the URL of the first 10 videos to a log file.
+
+***See our solution in this folder: https://github.com/maleneH/assignment5/tree/main/SeleniumAndCats***
 
 
 
