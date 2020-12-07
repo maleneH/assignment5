@@ -68,6 +68,8 @@ possible to create a work time block on Monday 23/11-2020 from
 then fail.
 
 
-#### – Creating a booking with the same employee on overlapping times must fail
+ – Creating a booking with the same employee on overlapping times must fail
 
-#### – Creating work time on sunday must fail
+ – Creating work time on sunday must fail
+
+***We extended the hello cucumber project with the features, as we had some issues with the database in our booking system from previous hand in.***
